@@ -1,8 +1,26 @@
 # PHP unserializer for Scala
 
+[![Build Status](https://travis-ci.org/Ceratech/php-unserializer.svg?branch=master)](https://travis-ci.org/Ceratech/php-unserializer)
+[![Download](https://api.bintray.com/packages/ceratech/maven/php-unserializer/images/download.svg)](https://bintray.com/ceratech/maven/php-unserializer/_latestVersion)
+[![Coverage Status](https://coveralls.io/repos/github/Ceratech/php-unserializer/badge.svg?branch=master)](https://coveralls.io/github/Ceratech/php-unserializer?branch=master)
+
 Library that unserializes PHP serialized strings (through PHPs [`serialize`](https://secure.php.net/manual/en/function.serialize.php) method.).
 
 Supports basic values, array (also asociative) and PHP objects.
+
+# Installation
+
+Add the following resolver to your `build.sbt`:
+
+```scala
+resolvers += Resolver.bintrayRepo("ceratech", "maven")
+```
+
+Add the following dependency to your dependencies:
+
+```scala
+libraryDependencies += "io.ceratech" %% "php-unserializer" % "0.1"
+```
 
 # Usage
 
