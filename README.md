@@ -1,6 +1,6 @@
 # PHP unserializer for Scala
 
-Library that unserializes PHP serialized strings (through PHPs (`serialize`)[https://secure.php.net/manual/en/function.serialize.php] method.).
+Library that unserializes PHP serialized strings (through PHPs [`serialize`](https://secure.php.net/manual/en/function.serialize.php) method.).
 
 Supports basic values, array (also asociative) and PHP objects.
 
@@ -24,4 +24,4 @@ Parse results, given a certain input:
 
 # Acknowledgements
 
-This project is a fork from (Scala PHPS)[https://github.com/mcfunley/scala-phps] cleaning up some things and adding deployment for simplified usage.
+This project is a fork from [Scala PHPS](https://github.com/mcfunley/scala-phps) cleaning up some things and adding deployment for simplified usage.
