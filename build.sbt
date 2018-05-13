@@ -15,7 +15,7 @@ lazy val root = (project in file(".")).
     name := "php-unserializer",
 
     bintrayOrganization := Some("ceratech"),
-    licenses += ("gpl-3.0", url("https://www.gnu.org/licenses/gpl-3.0.en.html")),
+    licenses += ("GPL-3.0", url("https://www.gnu.org/licenses/gpl-3.0.en.html")),
 
     git.useGitDescribe := true,
     git.baseVersion := "0.1",
